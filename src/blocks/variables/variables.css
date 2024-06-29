@@ -1,0 +1,9 @@
+:root {
+  --main-font: 'Roboto', serif;
+  --main-text-color: #172755;
+  --accent-text-color: #8794ba;
+  --button-color: #EF2A82;
+  --accent-color: #fff;
+  --padding-large: 13.3%;
+  --padding-small: 5.33%;
+}

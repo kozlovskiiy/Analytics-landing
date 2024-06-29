@@ -1,0 +1,5 @@
+.welcome-block__title {
+  font-size: clamp(1.9375rem, 1.574rem + 1.551vw, 3.125rem);
+  color: var(--accent-color);
+  margin-block-end: 20px;
+}

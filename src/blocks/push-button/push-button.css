@@ -1,0 +1,9 @@
+.push-button {
+  color: var(--accent-color);
+  background-color: var(--button-color);
+  border: none;
+  padding-block: 15.5px;
+  padding-inline: 74px;
+  font-size: 18px;
+  border-radius: 68px;
+}

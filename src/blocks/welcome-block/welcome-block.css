@@ -1,0 +1,5 @@
+.welcome-block {
+  padding-inline-start: var(--padding-large);
+  display: flex;
+  gap: 5.84%;
+}

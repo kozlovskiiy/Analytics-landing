@@ -1,0 +1,5 @@
+.page {
+  font-family: var(--main-font);
+  color: var(--accent-text-color);
+  width: 100%;
+}
