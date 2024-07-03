@@ -1,0 +1,6 @@
+.features__title {
+  font-size: clamp(1.875rem, 1.6837rem + 0.8163vw, 2.5rem);
+  color: var(--main-text-color);
+  text-align: center;
+  margin-block-end: 35px;
+}

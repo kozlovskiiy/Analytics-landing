@@ -1,0 +1,19 @@
+.welcome-block__wrapper {
+  max-width: 91.1%;
+  max-height: 84.46%;
+  position: relative;
+}
+
+.welcome-block__wrapper::before {
+  content: '';
+  position: absolute;
+  background-image: url(/images/A4.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 123px;
+  left: -69px;
+  z-index: 1;
+  width: 52.39%;
+  height: 44.8%;
+}

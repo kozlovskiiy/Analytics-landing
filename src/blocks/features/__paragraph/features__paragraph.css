@@ -1,0 +1,7 @@
+.features__paragraph {
+  font-size: clamp(0.875rem, 0.7985rem + 0.3265vw, 1.125rem);
+  line-height: 150%;
+  text-align: center;
+  padding-inline: 5.08%;
+  margin-block-end: 81px;
+}

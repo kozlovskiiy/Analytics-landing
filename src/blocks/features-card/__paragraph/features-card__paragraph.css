@@ -1,0 +1,4 @@
+.features-card__paragraph {
+  font-size: clamp(0.875rem, 0.8367rem + 0.1633vw, 1rem);
+  line-height: 140%;
+}

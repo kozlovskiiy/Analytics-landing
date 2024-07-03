@@ -1,0 +1,5 @@
+.features-card__text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

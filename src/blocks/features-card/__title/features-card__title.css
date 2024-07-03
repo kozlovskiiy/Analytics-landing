@@ -1,0 +1,5 @@
+.features-card__title {
+  color: var(--main-text-color);
+  font-weight: 700;
+  font-size: 16px;
+}

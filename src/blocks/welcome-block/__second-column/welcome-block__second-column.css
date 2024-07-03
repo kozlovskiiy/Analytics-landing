@@ -1,4 +1,5 @@
 .welcome-block__second-column {
   width: 54.653%;
-  position: relative;
+  display: flex;
+  justify-content: end;
 }
