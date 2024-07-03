@@ -1,0 +1,7 @@
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block-start: 70px;
+  border-top: 1px solid currentColor;
+}

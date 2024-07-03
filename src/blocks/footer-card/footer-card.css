@@ -1,0 +1,8 @@
+.footer-card {
+  background-color: var(--card-color);
+  border-radius: 30px;
+  padding-block: 50px 70px;
+  padding-inline: 60px;
+  min-height: 440px;
+  min-width: 340px;
+}

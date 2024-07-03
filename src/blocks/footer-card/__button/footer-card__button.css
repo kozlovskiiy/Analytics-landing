@@ -1,0 +1,10 @@
+.footer-card__button {
+  display: block;
+  border: 1px solid currentColor;
+  padding-block: 15.5px;
+  padding-inline: 80px;
+  background-color: inherit;
+  color: currentColor;
+  border-radius: 68px;
+  margin: 0 auto;
+}

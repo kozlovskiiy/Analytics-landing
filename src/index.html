@@ -25,6 +25,9 @@
         <div class="authorization-buttons">
           <button class="authorization-button">Sign in</button>
           <button class="authorization-button authorization-button_type_signup">Sign Up</button>
+          <a href="" class="media-link">
+            <img src="/images/menu-icon.png" alt="" class="media-link__image">
+          </a>
         </div>
       </div>
       <div class="welcome-block">
@@ -32,7 +35,7 @@
           <h1 class="welcome-block__title">Monitor your business on real-time dashboard</h1>
           <p class="welcome-block__paragraph">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque
-            volutpat est. Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam.
+            volutpat est. <span class="desktop_hidden">Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam.</span>
           </p>
           <button class="push-button">Try for free</button>
         </div>
@@ -44,13 +47,13 @@
       </div>
     </header>
     <main class="main">
-      <section class="features container_inline">
+      <section class="features container_inline features_margin_bottom">
         <h2 class="features__title">Main Features</h2>
         <p class="features__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus pulvinar sit amet. Id vel in nam malesuada.</p>
         <ul class="features__list">
           <li class="features__list-item">
             <article class="features-card">
-              <img src="/images/clock.png" alt="" class="features-card__image" />
+              <img src="/images/clock.png" alt="Иконка часов" class="features-card__image" />
               <div class="features-card__text">
                 <h3 class="features-card__title">Monitoring 24/7</h3>
                 <p class="features-card__paragraph">Lorem ipsum dolor sit amet, consectetur adipis
@@ -60,7 +63,7 @@
           </li>
           <li class="features__list-item">
             <article class="features-card">
-              <img src="/images/monitor.png" alt="" class="features-card__image" />
+              <img src="/images/monitor.png" alt="Иконка монтироа" class="features-card__image" />
               <div class="features-card__text">
                 <h3 class="features-card__title">Widget System</h3>
                 <p class="features-card__paragraph">Sapien in etiam vitae nibh nunc mattis imperdiet
@@ -70,7 +73,7 @@
           </li>
           <li class="features__list-item">
             <article class="features-card">
-              <img src="/images/racket.png" alt="" class="features-card__image" />
+              <img src="/images/racket.png" alt="Иконка ракеты" class="features-card__image" />
               <div class="features-card__text">
                 <h3 class="features-card__title">Best Performance</h3>
                 <p class="features-card__paragraph">Lorem ipsum dolor sit amet, consectetur adipis
@@ -80,6 +83,119 @@
           </li>
         </ul>
       </section>
+      <section class="screenshots container_inline screenshots_margin_bottom">
+        <ul class="screenshots__list">
+          <li class="screenshots__list-item">
+            <article class="screenshots-card">
+              <div class="screenshots-card__text">
+                <h2 class="screenshots-card__title">Automated Reports
+                  & Widget Alerts</h2>
+                <p class="screenshots-card__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus pulvinar sit amet.</p>
+              </div>
+              <img src="/images/screensnots.png" alt="Изображение с графиком" class="screenshots-card__image">
+            </article>
+          </li>
+          <li class="screenshots__list-item">
+            <article class="screenshots-card screenshots-card_reverse">
+              <img src="/images/screensnots.png" alt="Изображение с графиком" class="screenshots-card__image">
+              <div class="screenshots-card__text">
+                <h2 class="screenshots-card__title">Fully customizable to address your needs </h2>
+                <p class="screenshots-card__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus pulvinar sit amet.</p>
+              </div>
+            </article>
+          </li>
+          <li class="screenshots__list-item">
+            <article class="screenshots-card">
+              <div class="screenshots-card__text">
+                <h2 class="screenshots-card__title">Pre-built Dashboard Templates</h2>
+                <p class="screenshots-card__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus pulvinar sit amet.</p>
+              </div>
+              <img src="/images/screensnots.png" alt="Изображение с графиком" class="screenshots-card__image">
+            </article>
+          </li>
+        </ul>        
+      </section>
+      <footer class="footer container_inline">
+        <div class="footer-cards footer-cards_margin_bottom">
+          <h2 class="footer-cards__title">Pricing Plans</h2>
+          <p class="footer-cards__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque volutpat est.</p>
+          <nav class="footer-cards__menu">
+            <ul class="footer-cards__menu-list">
+              <li class="footer-cards__menu-item">
+                <a href="" class="footer-cards__menu-link">
+                  <article class="footer-card">
+                    <h3 class="footer-card__title">Starter</h3>
+                    <p class="footer-card__subtitle subtitle_underline">up to 3 users</p>
+                    <h4 class="footer-card__title">$<span class="footer-card__span">29</span></h4>
+                    <p class="footer-card__subtitle footer-card_padding_small">per month</p>
+                    <button class="footer-card__button">Order</button>
+                  </article>
+                </a>
+              </li>
+              <li class="footer-cards__menu-item">
+                <a href="" class="footer-cards__menu-link">
+                  <article class="footer-card card_selected">
+                    <h3 class="footer-card__title title_selected">Standard</h3>
+                    <p class="footer-card__subtitle subtitle_underline">up to 20 users</p>
+                    <h4 class="footer-card__title title_selected">$<span class="footer-card__span">99</span></h4>
+                    <p class="footer-card__subtitle footer-card_padding_small">per month</p>
+                    <button class="footer-card__button button_selected">Order</button>
+                  </article>
+                </a>
+              </li>
+              <li class="footer-cards__menu-item">
+                <a href="" class="footer-cards__menu-link">
+                  <article class="footer-card">
+                    <h3 class="footer-card__title">Premium</h3>
+                    <p class="footer-card__subtitle subtitle_underline">up to 200 users</p>
+                    <h4 class="footer-card__title">$<span class="footer-card__span">299</span></h4>
+                    <p class="footer-card__subtitle footer-card_padding_small">per month</p>
+                    <button class="footer-card__button">Order</button>
+                  </article>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer-bottom">
+          <img src="/images/footerlogo.png" alt="" class="footer-bottom__logo">
+          <nav class="footer-menu">
+            <ul class="footer-menu__list">
+              <li class="footer-menu__list-item">
+                <a href="" class="footer-menu__list-link">Product</a>
+              </li>
+              <li class="footer-menu__list-item">
+                <a href="" class="footer-menu__list-link">Pricing Plans</a>
+              </li>
+              <li class="footer-menu__list-item">
+                <a href="" class="footer-menu__list-link">FAQ</a>
+              </li>
+              <li class="footer-menu__list-item">
+                <a href="" class="footer-menu__list-link">Blog</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="footer-social">
+            <ul class="footer-social__list">
+              <li class="footer-social__list-item">
+                <a href="" class="footer-social__list-link">
+                  <img src="/images/Facebook.png" alt="" class="footer-social__list-image">
+                </a>
+              </li>
+              <li class="footer-social__list-item">
+                <a href="" class="footer-social__list-link">
+                  <img src="/images/Twitter.png" alt="" class="footer-social__list-image">
+                </a>
+              </li>
+              <li class="footer-social__list-item">
+                <a href="" class="footer-social__list-link">
+                  <img src="/images/Instagram.png" alt="" class="footer-social__list-image">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
     </main>
   </body>
 </html>

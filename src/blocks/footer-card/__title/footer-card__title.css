@@ -1,0 +1,7 @@
+.footer-card__title {
+  font-size: clamp(1.5625rem, 1.4668rem + 0.4082vw, 1.875rem);
+  font-weight: 700;
+  margin-block-end: 13px;
+  text-align: center;
+  color: var(--accent-color);
+}

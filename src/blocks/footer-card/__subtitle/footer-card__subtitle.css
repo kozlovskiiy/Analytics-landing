@@ -1,0 +1,5 @@
+.footer-card__subtitle {
+  text-align: center;
+  font-size: clamp(0.8125rem, 0.7168rem + 0.4082vw, 1.125rem);
+  padding-block-end: 37px;
+}

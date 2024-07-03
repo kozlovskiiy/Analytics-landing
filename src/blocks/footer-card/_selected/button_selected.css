@@ -1,0 +1,5 @@
+.button_selected {
+  background-color: var(--button-color);
+  color: var(--accent-color);
+  border: none;
+}

@@ -1,0 +1,6 @@
+.footer-cards__menu-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 80px;
+  overflow: auto;
+}
